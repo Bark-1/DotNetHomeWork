@@ -1,0 +1,14 @@
+D:\DotNetHomeWork\HomeWork2\Problem4\bin\Debug\netcoreapp3.1\Problem4.exe
+D:\DotNetHomeWork\HomeWork2\Problem4\bin\Debug\netcoreapp3.1\Problem4.deps.json
+D:\DotNetHomeWork\HomeWork2\Problem4\bin\Debug\netcoreapp3.1\Problem4.runtimeconfig.json
+D:\DotNetHomeWork\HomeWork2\Problem4\bin\Debug\netcoreapp3.1\Problem4.runtimeconfig.dev.json
+D:\DotNetHomeWork\HomeWork2\Problem4\bin\Debug\netcoreapp3.1\Problem4.dll
+D:\DotNetHomeWork\HomeWork2\Problem4\bin\Debug\netcoreapp3.1\Problem4.pdb
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.csproj.AssemblyReference.cache
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.AssemblyInfoInputs.cache
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.AssemblyInfo.cs
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.csproj.CoreCompileInputs.cache
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.dll
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.pdb
+D:\DotNetHomeWork\HomeWork2\Problem4\obj\Debug\netcoreapp3.1\Problem4.genruntimeconfig.cache
