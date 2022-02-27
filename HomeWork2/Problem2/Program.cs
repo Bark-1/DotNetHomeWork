@@ -14,13 +14,13 @@ namespace Problem2
             {
                 intArr[i] = Int32.Parse(strArr[i]);
             }
-            Func(intArr,out int max,out int min,out double avr,out int sum);
+            Calculate(intArr,out int max,out int min,out double avr,out int sum);
             Console.WriteLine(max);
             Console.WriteLine(min);
             Console.WriteLine(avr);
             Console.WriteLine(sum);
         }
-        static void Func(int[] arr,out int max,out int min,out double avr,out int sum)
+        static void Calculate(int[] arr,out int max,out int min,out double avr,out int sum)
         {
             max = Int32.MinValue;
             min = Int32.MaxValue;

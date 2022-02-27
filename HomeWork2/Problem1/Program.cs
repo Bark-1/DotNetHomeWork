@@ -6,20 +6,21 @@ namespace Problem1
     {
         static void Main(string[] args)
         {
-            int num = Int32.Parse(Console.ReadLine());
-            int[] ans=Func(num);
-            foreach(int i in ans)
+            if(int.TryParse(Console.ReadLine(),out int num))
             {
-                Console.WriteLine(i);
+                int[] ans = new int[100];
+                GetFactor(num, ref ans,out int j);
+                for (int i = 0; i < j; ++i)
+                {
+                    Console.WriteLine(ans[i]);
+                }
             }
-
-            Console.WriteLine("Hello World!");
         }
-        static int[] Func(int num)
+        static void GetFactor(int num,ref int[] ans,out int j)
         {
-            int n = (int)Math.Sqrt(num);
-            int[] ans = new int[n];
-            int j = 0;
+            j = 0;
+            if (num <= 0) return;
+
             int i = 2;
             while(num>i)
             {
@@ -31,11 +32,11 @@ namespace Problem1
                 {
                     ans[j] = i;
                     ++j;
-                    num %= i;
+                    num /= i;
                 }
-                
             }
-            return ans;
+            ans[j] = num;
+            ++j;
         }
     }
 }

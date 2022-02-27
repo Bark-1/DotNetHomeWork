@@ -6,24 +6,28 @@ namespace Problem3
     {
         static void Main(string[] args)
         {
-            bool[] isValid = new bool[101];
-            for(int i=0;i<101;++i)
+            PrimeNum(out bool[] isValid,100);
+            for(int i=2;i<101;++i)
+            {
+                if (isValid[i]) Console.WriteLine(i);
+            }
+        }
+        static void PrimeNum(out bool[] isValid,int num)
+        {
+            isValid = new bool[num+1];
+            for (int i = 0; i <= num; ++i)
             {
                 isValid[i] = true;
             }
-            for(int i=2;i<101;++i)
+            for (int i = 2; i <= num; ++i)
             {
-                for(int j=i+1;j<101;++j)
+                for (int j = i + 1; j <= num; ++j)
                 {
-                    if(isValid[j] && j%i==0)
+                    if (isValid[j] && j % i == 0)
                     {
                         isValid[j] = false;
                     }
                 }
-            }
-            for(int i=2;i<101;++i)
-            {
-                if (isValid[i]) Console.WriteLine(i);
             }
         }
     }
